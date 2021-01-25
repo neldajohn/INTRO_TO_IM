@@ -99,28 +99,3 @@ arc(525,540,50,100, radians(260), radians(370));
 noStroke();
 rect(80,485,439,120);
 
-//dress decor
-fill(255,255,255);
-//use for-loop after you learn java
-ellipse(80,500,10,10);
-ellipse(100,520,10,10);
-ellipse(120,540,10,10);
-ellipse(140,560,10,10);
-ellipse(160,580,10,10);
-ellipse(180,500,10,10);
-ellipse(200,500,10,10);
-ellipse(220,500,10,10);
-ellipse(240,500,10,10);
-ellipse(260,500,10,10);
-ellipse(280,500,10,10);
-ellipse(300,500,10,10);
-ellipse(320,500,10,10);
-ellipse(340,500,10,10);
-ellipse(360,500,10,10);
-ellipse(380,500,10,10);
-ellipse(400,500,10,10);
-ellipse(420,580,10,10);
-ellipse(440,560,10,10);
-ellipse(460,540,10,10);
-ellipse(480,520,10,10);
-ellipse(500,500,10,10);
