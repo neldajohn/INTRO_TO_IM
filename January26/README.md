@@ -10,4 +10,5 @@
 - Perhaps the coolest feature I discovered was the color selector in the tools section of processing. I was having a hard time coming up with the right shade for my skin tone as well as my eyes and hair... and after googling and watching a couple of Youtube videos, I discovered that there is a color selector that lets you pick the color you want first, then gives you the RGB values. I think that is pretty cool and efficient.
 
 ## Outcome:
+![January26](neldas_portrait.PNG)
 
