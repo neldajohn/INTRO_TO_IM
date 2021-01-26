@@ -4,6 +4,8 @@
 - The portrait need not be dynamic or realistic, but should be entirely coded by the students. 
 ## The process:
 - I particularly enjoyed coming up with ways to integrate as many features as possible on my self-portrait. I was able to use the reference page that is available to us. From that, I not only read what different functions do, but I also put them into use... which further helps me put my knowledge into use.
+- Below are screenshots of the different stages of the construction of this portrait
+![January26](Media/neldas_portrait_1.PNG)
 ### Difficulties:
 - The main challenge was hard-coding values. As a previous computer science major, I was taught that hard-coding values is not a good coding habit. Therefore, when I started this assignment... I had a hard time coming to terms with the fact that perhaps human faces are not as symmetrical and proportional as I would want them to be. Yes, including my own. This realization forced me to hard-code some values to give me the desired facial features.
 - The other challenged I faced was working with curves. As tempting as it was, I tried to use as few straight lines as possible, because there are almost zero parts of the human body that are actually straight. Therefore, I had to learn to use arcs and how to emloy different modes to achieve the curvature I desired for my portrait. All in all, this was a great learning experience.
