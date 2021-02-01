@@ -1,4 +1,4 @@
-# ASSIGNMENT ONE:SELF-PORTRAIT
+# ASSIGNMENT ONE: SELF-PORTRAIT
 ## Description:
 - This assignment requires students to make self-potraits using processing. Given that this is the first assignment in the course, the students are only required to use basic in-built functions to come with different shapes and facial features.
 - The portrait need not be dynamic or realistic, but should be entirely coded by the students. 
