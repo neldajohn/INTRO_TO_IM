@@ -15,4 +15,4 @@
 - Not that I used this in my assignment, but I found out that functions in java can only be used as part of a class (Methods) if one wants to pass variables with them. As someone who is fluent in both Python and C++, I found this to be quite limiting, therefore I had to initiate the same variables in all my functions.
 
 ## Outcome:
-![](Screen Shot 2021-02-01 at 10.51.19 AM.png)
+![](February02/Screen Shot 2021-02-01 at 10.51.19 AM.png)
