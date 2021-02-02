@@ -11,7 +11,7 @@
 First: Draw thin red lines from (0,0) 
 ![](Media/neldas_art_1.PNG)
 
-Second: Red lines from (150,150)
+Second: Red more lines from (150,150)
 ![](Media/neldas_art_2.PNG)
 
 Next, I added two more points, hence connecting the whole shape to form on a messy grid of red lines criss-crossing
