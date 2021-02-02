@@ -11,14 +11,22 @@
 First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0) to different parts of the canvas
 ![](Media/neldas_art_1.PNG)
 
-Then I added two other starting points while still maintaining the end points. This formed a web-like structure as seen below
+Then I added another starting point (150,150) while still maintaining the end points. This formed a web-like structure as seen below
 ![](Media/neldas_art_2.PNG)
 
 Next, I added two more points, hence connecting the whole shape to form on a messy grid of red lines criss-crossing
 ![](Media/neldas_art_3.PNG)
+
+I then added two last points, to complete the whole structure till the lowest right corner(600,600)
 ![](Media/neldas_art_4.PNG)
+
+I followed the same steps to add orange lines
 ![](Media/neldas_art_5.PNG)
+
+Then I followed the same steps once more with yellow
 ![](Media/neldas_art_6.PNG)
+
+And may be one can tell where this is going: I followed ROYGBIV(colors of the rainbow), whilst incrementing the starting points by 1 point to create a rainbow effect with the lines slightly smearing
 ![](Media/neldas_art_7.PNG)
  
 
