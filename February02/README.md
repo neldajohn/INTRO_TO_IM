@@ -8,9 +8,13 @@
 - My favorite part about this assignment was that I had no idea what it was exactly that I wanted to create before I started coding, but once I opened processing and started trying different shapes and functions, I was able to tweak different elements to come up with the final result. This just goes to show that a huge part of the creative process is just diving into the unknown and see what it has in store at that point in time.
 - Below are screenshots of different stages of the project
 
-First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0).
+First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0) to different parts of the canvas
 ![](Media/neldas_art_1.PNG)
+
+Then I added two other starting points while still maintaining the end points. This formed a web-like structure as seen below
 ![](Media/neldas_art_2.PNG)
+
+Next, I added two more points, hence connecting the whole shape to form on a messy grid of red lines criss-crossing
 ![](Media/neldas_art_3.PNG)
 ![](Media/neldas_art_4.PNG)
 ![](Media/neldas_art_5.PNG)
