@@ -9,6 +9,7 @@
 - Below are screenshots of different stages of the project
 
 First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0) to different parts of the canvas
+-
 ![](Media/neldas_art_1.PNG)
 
 Then I added another starting point (150,150) while still maintaining the end points. This formed a web-like structure as seen below
