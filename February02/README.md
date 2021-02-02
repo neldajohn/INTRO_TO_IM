@@ -16,6 +16,8 @@ Next, I changed the starting point of my lines to two other points while still m
 
 I then added two more end points
 ![](Media/neldas_art_3.PNG)
+
+Then more
 ![](Media/neldas_art_4.PNG)
 ![](Media/neldas_art_5.PNG)
 ![](Media/neldas_art_6.PNG)
