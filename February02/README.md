@@ -9,8 +9,12 @@
 - Below are screenshots of different stages of the project
 
 First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0).
-![align = "center"](Media/neldas_art_1.PNG)
+![](Media/neldas_art_1.PNG)
+
+Next, I changed the starting point of my lines to two other points while still maintaining the end points).
 ![](Media/neldas_art_2.PNG)
+
+I then added two more end points
 ![](Media/neldas_art_3.PNG)
 ![](Media/neldas_art_4.PNG)
 ![](Media/neldas_art_5.PNG)
