@@ -26,7 +26,7 @@ Fifth: Add Orange line with similar patterns to create a smudgy figure
 Sixth: Add Yellow on top of the Orange and Red lines that have been drawn
 ![](Media/neldas_art_6.PNG)
 
-And may be one can tell where this is going: I followed ROYGBIV(colors of the rainbow), whilst incrementing the starting points by 1 point to create a rainbow effect with the lines slightly smearing
+Seventh: Follow the ROYGBIV pattern to come up with a rainbow effect on the edges
 ![](Media/neldas_art_7.PNG)
  
 
