@@ -14,16 +14,16 @@ First: Draw thin red lines from (0,0)
 Second: Red more lines from (150,150)
 ![](Media/neldas_art_2.PNG)
 
-Next, I added two more points, hence connecting the whole shape to form on a messy grid of red lines criss-crossing
+Third: Add two more points along the same line
 ![](Media/neldas_art_3.PNG)
 
-I then added two last points, to complete the whole structure till the lowest right corner(600,600)
+Fourth: Add two more points till (600,600)
 ![](Media/neldas_art_4.PNG)
 
-I followed the same steps to add orange strokes just like with the red strokes
+Fifth: Add Orange line with similar patterns
 ![](Media/neldas_art_5.PNG)
 
-Then I followed the same steps once more with yellow
+Sixth: Add Yellow 
 ![](Media/neldas_art_6.PNG)
 
 And may be one can tell where this is going: I followed ROYGBIV(colors of the rainbow), whilst incrementing the starting points by 1 point to create a rainbow effect with the lines slightly smearing
