@@ -11,7 +11,7 @@
 First: Draw thin red lines from (0,0) to many different points around the canvas
 ![](Media/neldas_art_1.PNG)
 
-Second: Red more lines from (150,150) to the same points to form a web-like structure
+Second: Add more red lines from (150,150) to the same points to form a web-like structure
 ![](Media/neldas_art_2.PNG)
 
 Third: Add two more points along the same line to intensify the number of crossings
