@@ -9,7 +9,7 @@
 - Below are screenshots of different stages of the project
 
 First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0).
-<align = "centre">
+<p align = "centre">
 ![](Media/neldas_art_1.PNG)
 ![](Media/neldas_art_2.PNG)
 ![](Media/neldas_art_3.PNG)
@@ -17,6 +17,7 @@ First, I started with sharp red lines all protruding from the upper left corner 
 ![](Media/neldas_art_5.PNG)
 ![](Media/neldas_art_6.PNG)
 ![](Media/neldas_art_7.PNG)
+  </p>
 
 
 ## Difficulties:
