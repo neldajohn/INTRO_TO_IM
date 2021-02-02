@@ -9,6 +9,7 @@
 - Below are screenshots of different stages of the project
 
 First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0).
+<p align = "center> 
 ![](Media/neldas_art_1.PNG)
 ![](Media/neldas_art_2.PNG)
 ![](Media/neldas_art_3.PNG)
@@ -16,6 +17,7 @@ First, I started with sharp red lines all protruding from the upper left corner 
 ![](Media/neldas_art_5.PNG)
 ![](Media/neldas_art_6.PNG)
 ![](Media/neldas_art_7.PNG)
+            </p>
 
 ## Difficulties:
 - Frankly, this assignment was much easier compared to the first. The biggest roadblock that I came across was lack of direction. Like I stated in the process section, I did not have a clear goal that I was working towards, therefore I pretty much just had to do trial and error. As a person that appreciates organization and orderliness, this was quite challenging.
