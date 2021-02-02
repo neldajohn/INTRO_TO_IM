@@ -9,8 +9,6 @@
 - Below are screenshots of different stages of the project
 
 First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0).
-
-  <img align ="centre" src = "Media/neldas_art_1.PNG" >
 ![](Media/neldas_art_1.PNG)
 ![](Media/neldas_art_2.PNG)
 ![](Media/neldas_art_3.PNG)
