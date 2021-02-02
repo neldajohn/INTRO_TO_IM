@@ -15,9 +15,11 @@ Then I added another starting point (150,150) while still maintaining the end po
 ![](Media/neldas_art_2.PNG)
 
 Next, I added two more points, hence connecting the whole shape to form on a messy grid of red lines criss-crossing
+
 ![](Media/neldas_art_3.PNG)
 
 I then added two last points, to complete the whole structure till the lowest right corner(600,600)
+
 ![](Media/neldas_art_4.PNG)
 
 I followed the same steps to add orange lines
