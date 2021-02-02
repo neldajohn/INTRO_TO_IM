@@ -8,6 +8,9 @@
 - My favorite part about this assignment was that I had no idea what it was exactly that I wanted to create before I started coding, but once I opened processing and started trying different shapes and functions, I was able to tweak different elements to come up with the final result. This just goes to show that a huge part of the creative process is just diving into the unknown and see what it has in store at that point in time.
 - Below are screenshots of different stages of the project
 
+First, I started with sharp red lines all protruding from the upper left corner of my canvas (0,0).
+![](Media/neldas_art_1.PNG)
+
 ## Difficulties:
 - Frankly, this assignment was much easier compared to the first. The biggest roadblock that I came across was lack of direction. Like I stated in the process section, I did not have a clear goal that I was working towards, therefore I pretty much just had to do trial and error. As a person that appreciates organization and orderliness, this was quite challenging.
 
