@@ -9,7 +9,7 @@
 - Since I knew that I was going to need multiple flowers, I decided to start with just one flower and settle for it once I liked it. So I started with overlapping ellipses to make on flower at the centre using hard coded numbers first. Once I liked what I had, I decided to make a Flower class, so that I would be able to replicate it whenever I needed to add new flower objects.
 ![](Media/neldas_photo_1.png)
 
-- Next I decided to instantiate other flower objects, but in different sizes, this means that I needed to figure out the proportions of the ellipses that I combined, so that I wouldn't need to hardcode numbers, and instead just change the proportion sizes depending on the petal size.
+- Next I decided to instantiate other flower objects, but in different sizes, this means that I needed to figure out the proportions of the ellipses that I combined, so that I wouldn't need to hardcode numbers, and instead just change the proportion sizes.
 ![](Media/neldas_photo_2.png)
 
 - Once that worked, I deciced to use a for-loop to make these flowers instead of calling multiple lines as that would be tiresome, especially because I am using a large screen, so I would need to write at least 400 lines; which is not wise. I also decided to randomize the colors of each flower with a controlled frameRate.
