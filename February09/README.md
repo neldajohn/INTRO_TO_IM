@@ -6,7 +6,7 @@
 
 ## The process:
 - As one may be able to tell from my previous projects, I love color. I love mixing so many colors together and having very vibrant works. So naturally, when I started thinking of my ideas for this project, I knew that I wanted something with lots of colors. And after experimenting with the colors of the rainbow last week, I decided to jump on the second most colorful thing I could think of : Flowers. My favorite flowers happen to be tulips, and luckily, they come in almost all possible colors, plus they are really easy to make using ellipses that overlap. 
-- Since I knew that I was going to need multiple flowers, I decided to start with just one flower and settle for it once I liked it. So I started with overlapping ellipses to make on flower at the centre using hard coded numbers first. Once I liked what I had, I decided to make a Flower class, so that I would be able to replicate it.
+- Since I knew that I was going to need multiple flowers, I decided to start with just one flower and settle for it once I liked it. So I started with overlapping ellipses to make on flower at the centre using hard coded numbers first. Once I liked what I had, I decided to make a Flower class, so that I would be able to replicate it whenever I needed to add new flower objects.
 ![](Media/neldas_photo_1.png)
 
 - Next I decided to instantiate other flower objects, but in different sizes, this means that I needed to figure out the proportions of the ellipses that I combined, so that I wouldn't need to hardcode numbers.
