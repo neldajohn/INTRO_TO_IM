@@ -2,7 +2,7 @@
 
 ## Description: 
 - This assignment requires students to use object-oriented programming to either create a work of art or to make a game. I chose to make a piece of art, because I believe that I would benefit more from employing my creativity without having to worry about technicalities of a game. 
-- In this project, students are encouraged to :
+- In this project, I decided to make a garden of tulips.
 
 ## The process:
 - As one may be able to tell from my previous projects, I love color. I love mixing so many colors together and having very vibrant works. So naturally, when I started thinking of my ideas for this project, I knew that I wanted something with lots of colors. And after experimenting with the colors of the rainbow last week, I decided to jump on the second most colorful thing I could think of : Flowers. My favorite flowers happen to be tulips, and luckily, they come in almost all possible colors, plus they are really easy to make using ellipses that overlap. 
