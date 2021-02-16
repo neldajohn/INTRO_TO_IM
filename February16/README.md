@@ -6,6 +6,9 @@
 
 ## The Process:
 - Initially, I wanted a plain cover to introduce what the project is about, so I settled for a simple description using text and what I consider to be a "cool" background. This is because I found that the data was taking a very long time to load. Therefore, I only use the cover page to buy the program some time to process the data from my csv file.
+- To make this cover, I borrowed the wheel that changes color from class practice. I also mention this in the code
+![](Media/neldas_video_2.gif)
+
 - From this, data.csv file, I store the month value - which is either the first one or two digits in each row of my csv file. After that, I sum up all the negative values in the "amount" column of that month's row. For example, a typical row in the file looks like: "3/01/2020 11:53AM,	AD - Bluemart02 - Charge,	-7.25,	492.94". The third item in this comma-separated line is the amount I store. I created variables for each month, such that if the month reads, say "1"... I will store the charge in the januaryTotal variable. This is repeated for all months of the year, and once it reaches the last row, I stop the loop to avoid increased counting.
 - Once I have all the monthly expenditures in their respective variables, I call the drawGraph() function, which in turn draws a bar graph with all the months and their total expenses. 
 
