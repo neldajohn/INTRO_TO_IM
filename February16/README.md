@@ -4,6 +4,9 @@
 - This assignment requires students to use data to create interesting works of art.
 - My project is based on data that I downloaded from mealplans.nyu.edu which is an online site that tracks NYU students' campus cash balance. Every single time money is spent on campus, a record is made, and one can check their balance statements for at most a period of 12 months. So, this project is meant to show my spending habits and what months I spend most money on.
 
+### General Concept:
+- This data is going to be used to show statistically how much money (in AED) that Nelda has spent on campus in the last 12 months. My plan is to be able to represent this same data in as many statistical figures as I possibly can. But for the sake of this assignment, I will focus on first making a bar graph and if I have enough time, I could do a line graph as well.   
+
 ## The Process:
 - Initially, I wanted a plain cover to introduce what the project is about, so I settled for a simple description using text and what I consider to be a "cool" background. This is because I found that the data was taking a very long time to load. Therefore, I only use the cover page to buy the program some time to process the data from my csv file.
 - To make this cover, I borrowed the wheel that changes color from class practice. I also mention this in the code
@@ -31,3 +34,9 @@
 
 ![](Media/neldas_video_2.gif)
 
+## Conclusion:
+- I think this was a very useful assignment because I also got the time to see where it is I spend most of my money. The is no record for August because it was the month that I went back home for the summer, so there were no campus expenses recorded. I figured out that March was the most financially taxing month because it was when we went into online teaching so I stopped eating from the Dining Hall as much and instead started using ADNH's food delivery system, which relies on campus dirhams instead of meal swipes. 
+
+## Areas of improvement:
+- I would like to work on the cover page. I think it looks very basic and rushed. 
+- I would also like to be able to add another page with a line graph for the same data.
