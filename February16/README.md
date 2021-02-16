@@ -25,7 +25,7 @@
 
 ## Outcome:
 - The final outcome of the graph looks like the image being displayed below:
-![](Media/neldas_photo.png)
+![](Media/neldas_photo_2.png)
 
 - And the final compilation of the cover sheet and the graph looks like this:
 
