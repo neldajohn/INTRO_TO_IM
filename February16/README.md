@@ -18,4 +18,5 @@
 - I noted this from Prof. Shiloh's example in class, but I was able to use it in my assignment too: the use of noloop(). After my data reached the last row, I noticed that the values were still being increased, so I figured that this was because the loop was still running and each time it was adding the last value over and over again... bringing the total money spent for the last month to even past 10,000 AED. And I know I can be a bad spender, but not bad enough to spend 10,000 AED in a month.
 
 ## Outcome:
+![](Media/neldas_video.gif)
 
