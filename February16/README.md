@@ -7,7 +7,7 @@
 ## The Process:
 - Initially, I wanted a plain cover to introduce what the project is about, so I settled for a simple description using text and what I consider to be a "cool" background. This is because I found that the data was taking a very long time to load. Therefore, I only use the cover page to buy the program some time to process the data from my csv file.
 - To make this cover, I borrowed the wheel that changes color from class practice. I also mention this in the code
-![](Media/neldas_video_2.gif)
+![](Media/neldas_video.gif)
 
 - Overall then, a static image of the cover looks like this:
 ![](Media/a_photo.png)
@@ -29,5 +29,5 @@
 
 - And the final compilation of the cover sheet and the graph looks like this:
 
-![](Media/neldas_video.gif)
+![](Media/neldas_video_2.gif)
 
