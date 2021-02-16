@@ -10,7 +10,7 @@
 ![](Media/neldas_video_2.gif)
 
 - Overall then, a static image of the cover looks like this:
-![](Media/neldas_photo.png)
+![](Media/neldas_photo_2.png)
 
 - From this, data.csv file, I store the month value - which is either the first one or two digits in each row of my csv file. After that, I sum up all the negative values in the "amount" column of that month's row. For example, a typical row in the file looks like: "3/01/2020 11:53AM,	AD - Bluemart02 - Charge,	-7.25,	492.94". The third item in this comma-separated line is the amount I store. I created variables for each month, such that if the month reads, say "1"... I will store the charge in the januaryTotal variable. This is repeated for all months of the year, and once it reaches the last row, I stop the loop to avoid increased counting.
 - Once I have all the monthly expenditures in their respective variables, I call the drawGraph() function, which in turn draws a bar graph with all the months and their total expenses. 
