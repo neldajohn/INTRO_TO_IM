@@ -10,6 +10,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 <div align = "center">
   <h3> Thursday 18th February, 2021</h3>
   </div>
+  
 Today, I focused on three main things:
 - To get a proper layout of my program. 
   - To do this, I opened a new document and I decided to add in a decsription of my program (that includes my name, date created, last modified, as well as a simple description of what the program does and any instructions to the user. 
