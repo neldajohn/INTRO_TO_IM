@@ -8,7 +8,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 ### JOURNAL ENTRIES
 
 <div align = "center">
-#### Thursday 18th February, 2021
+  <h3> Thursday 18th February, 2021</h3>
   </div>
 Today, I focused on three main things:
 - To get a proper layout of my program. 
