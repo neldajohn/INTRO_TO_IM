@@ -272,6 +272,9 @@ class Word
   }
 }
 ```
+- I also wanted to display the game score (so that when I can detect knocks, I will just increase the score), so I used the global variable gameScore that I initiated in the very beginning of the game, and I set it to increment by the number of letters in the word scored. I put this on top of the platform, so that it would not interfere with the words falling and it would also still not obstruct the platform, because I used the opacity function. 
+![](Media/score.png)
+
 
 - I decided to load the csv file that contains all the words that I will be using in the game. I loaded the words in the setup function, because I only want this to be done once. Then I am going to display them all together by using a for loop. Because I already have a showWord() method in my word class, I can just call one method for all objects in myWordsArray. Below is the code for what that looks like as of now: 
 ```Processing
@@ -291,7 +294,7 @@ Outcome:
 - This is the what the ball's movements (using keyCodes and keyPressed) look like so far:
 ![](Media/move.gif)
 
-- This is what the words falling look like so far. (I just initiated them at a negative y position and increased each by a random number:
+- This is what the words falling look like so far. (I initiated them at a negative y position and increased each by a random number):
 ![](Media/fall.gif)
 
 #### What worked:
@@ -349,10 +352,6 @@ boolean Knock()
     return check;
   }
 ```
-
-- I also wanted to display the game score as the knocks happened, so I used the global variables gameScore that I initiated in the very beginning of the game, and I incremented it by the number of letters in the word scored. I put this on top of the platform, so that it would not interfere with the words falling and it would also still not obstruct the platform, because I used the opacity function. 
-![](Media/score.png)
-
 - Lastly, I wanted to also keep track of the number of words that the player lost i.e. the words that they player could not catch before they disappeared into the platform. I initially wanted to use the same function as the one that detects knocks because they use the same concepts, but I decided against that. I think it is nice to separate different attributes and operations by class methods, even if theya re similar. So, below is the code for the lostWords() function. 
 ```Processing
  boolean LostWords()
@@ -390,6 +389,8 @@ boolean Knock()
     return check;
   }
 ```
+In the end, this was the outcome I got:
+![](Media/game.gif)
 
 #### What worked:
 - After so many trials, I was actually able to make the collisions smooth. I wanted to use distance and to say that whenever the distance between the player and any word is zero, then the score should go up, but that proved to be difficult because it involved more calculations. So, I decided to use x and y positions like desribed above. 
@@ -530,8 +531,6 @@ class Level_One
 
 - Changing my array of words into an arrayList. I realized that I will need to delete the words from the array so that Incan detect when the game is over. I need to do this both when the words get knocked by the player and when the words are lost by the player. That means that, currently I do not have a way to end the game. This means that the game will proceed even after all the words are knocked or all the words are lost. I tried doing this but my program crashed and I just absolutely failed to switch over. I will keep this at the back for now, then I will work on it. 
 
-Outcome: 
-![](Media/game.gif)
 
 #### What worked:
 - The main game class was successfully started. It also works just the way I wanted it too, so that means that it can be inherited and replicated for other levels too. 
