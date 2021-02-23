@@ -8,6 +8,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 ### JOURNAL ENTRIES:
 
 <div align = "center">
+  <br></br>
   <h3> <u> <b> || Thursday 18th February, 2021 || </b></u></h3>
   </div>
   
