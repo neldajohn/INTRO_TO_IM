@@ -16,6 +16,44 @@ Today, I focused on three main things:
   - Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. The final code I had on day one was:
 ```Processing
 
+//global variables
+wordsArray 
+gameScore
+blocksLeft
+numberOfWords
+
+void setup()
+{
+size(1280,720);
+}
+
+void draw()
+{
+}
+
+class Player
+{
+//attributes [xpos, ypos, width, height, gravity, x_speed, y_speed, radius]
+//constructor method
+//gravity method
+//update the player's position
+//show the player
+}
+
+class Platform
+{
+//attributes [xpos, ypos, width, height]
+//constructor method
+//display the platform
+}
+
+class Word
+{
+//attributes [xpos, ypos, width of the box, height of the box, color of the box]
+//constructor method
+//update the word's position
+//show the word
+}
 
 ```
 
