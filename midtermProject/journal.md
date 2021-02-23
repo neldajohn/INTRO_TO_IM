@@ -535,7 +535,7 @@ class Level_One
 
 #### What worked:
 - The main game class was successfully started. It also works just the way I wanted it too, so that means that it can be inherited and replicated for other levels too. 
-- I was also able to make a start page and to get the game to start only when the user clicked the mouse. This is what the start page looks like:
+- I was also able to make a start page and to get the game to start only when the user clicked the mouse:
 ![](Media/cover.gif)  
 
 #### What didn't work:
