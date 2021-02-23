@@ -8,7 +8,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 ### JOURNAL ENTRIES:
 
 <div align = "center">
-  <h3> <u> <b>Thursday 18th February, 2021</b></u></h3>
+  <h3> <u> <b> || Thursday 18th February, 2021 || </b></u></h3>
   </div>
   
 Today, I focused on three main things:
@@ -104,8 +104,10 @@ And the outcome looked like the one below:
 - I plan to display the platform and the player from their own classes. So, I will move the statements to their respective classes, and I will only call the show methods for each object.
 
 
+
+
 <div align = "center">
-  <h3> <u>Friday 19th February, 2021</u></h3>
+  <h3> <u> <b> || Friday 19th February, 2021 ||</b> </u></h3>
   </div>
   
 Today, I focused on these main things:
@@ -217,6 +219,13 @@ Today, I focused on these main things:
   }
   ```
 - I also started to work on the words class:
+
+#### What worked:
+
+#### What didn't work:
+
+#### Modifications:
+
   
 <div align = "center">
   <h3> <u>Saturday 20th February, 2021</u></h3>
