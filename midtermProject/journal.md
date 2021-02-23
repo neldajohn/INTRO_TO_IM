@@ -287,7 +287,12 @@ class Word
 ```
 
 Outcome:
+
+- This is the what the ball's movements (using keyCodes and keyPressed) look like so far:
 ![](Media/move.gif)
+
+- This is what the words falling look like so far. (I just initiated them at a negative y position and increased each by a random number:
+![](Media/fall.gif)
 
 #### What worked:
 - I was really happy that I was able to move the player within the canvas' limits and with great ease. I was also excited to get the words falling. I think the hardest part was to get the actual words fit the boxes. I was able to figure out a simple formula to make sure that each box matched the length of the word itself. 
