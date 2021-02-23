@@ -273,7 +273,7 @@ class Word
 }
 ```
 
-- I decided to load the csv file that contains all the words that I will be using in the game. I loaded the words in the setup function, because I only want this to be done once. Then I am going to display them all together by using a for loop. Because I already have a showWord() method in my word class, I camn just call one method for all objects in myWordsArray. Below is the code for what that looks like as of now: 
+- I decided to load the csv file that contains all the words that I will be using in the game. I loaded the words in the setup function, because I only want this to be done once. Then I am going to display them all together by using a for loop. Because I already have a showWord() method in my word class, I can just call one method for all objects in myWordsArray. Below is the code for what that looks like as of now: 
 ```Processing
   words = loadStrings("animals.csv"); //load the animal data
   numberOfWords = words.length;
@@ -286,7 +286,7 @@ class Word
   }
 ```
 
-This is the outcome for today's work:
+Outcome:
 ![](Media/move.gif)
 
 #### What worked:
@@ -525,7 +525,7 @@ class Level_One
 
 - Changing my array of words into an arrayList. I realized that I will need to delete the words from the array so that Incan detect when the game is over. I need to do this both when the words get knocked by the player and when the words are lost by the player. That means that, currently I do not have a way to end the game. This means that the game will proceed even after all the words are knocked or all the words are lost. I tried doing this but my program crashed and I just absolutely failed to switch over. I will keep this at the back for now, then I will work on it. 
 
-This is the final outcome for today:
+Outcome: 
 ![](Media/game.gif)
 
 #### What worked:
