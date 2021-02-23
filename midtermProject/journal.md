@@ -342,6 +342,43 @@ boolean Knock()
 - I also wanted to display the game score as the knocks happened, so I used the global variables gameScore that I initiated in the very beginning of the game, and I incremented it by the number of letters in the word scored. I put this on top of the platform, so that it would not interfere with the words falling and it would also still not obstruct the platform, because I used the opacity function. 
 ![](Media/score.png)
 
+- Lastly, I wanted to also keep track of the number of words that the player lost i.e. the words that they player could not catch before they disappeared into the platform. I initially wanted to use the same function as the one that detects knocks because they use the same concepts, but I decided against that. I think it is nice to separate different attributes and operations by class methods, even if theya re similar. So, below is the code for the lostWords() function. 
+```Processing
+ boolean LostWords()
+  {
+    //prepare a new array to copy
+    final int numWords = (myWordsArray.length);
+    // int numWords = myWordsArray.size();
+    ArrayList<Word> myNewArray = new ArrayList<Word>();
+    boolean check = false;
+
+    //iterate through the array of words
+    for (int i = 0; i < myWordsArray.length; i++)
+    {
+      if (myWordsArray[i].y_pos < height-100)
+      {
+        myNewArray. add(myWordsArray[i]);
+      } else
+      {
+        if (blocks_left > 0)
+        {
+          blocks_left -= 1;
+        } else if (blocks_left == -100)
+        {
+          alive = false;
+        }
+        check = true;
+      }
+    }
+    int count = 0;
+    for (Word myword : myNewArray)
+    {
+      myWordsArray[count] = myword;
+      count++;
+    }
+    return check;
+  }
+```
 #### What worked:
 - After so many trials, I was actually able to make the collisions smooth. I wanted to use distance and to say that whenever the distance between the player and any word is zero, then the score should go up, but that proved to be difficult because it involved more calculations. So, I decided to use x and y positions like desribed above. 
 
