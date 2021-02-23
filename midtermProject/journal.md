@@ -101,8 +101,7 @@ And the outcome looked like the one below:
 - Since I did the bare minimum, I did not come across many hurdles. The main issue was that I displayed the platform and the circle before the background, so when I ran my program, I only saw the background. However, that was easily fixed with just moving the lines to where they belong and everything worked just fine.
 
 #### Modifications:
-- I plan to display the platform and the player from their own classes. So, I will move the statements to their respective classes, and I will only call the show methods for each object.
-
+I plan to display the platform and the player from their own classes. So, I will move the statements to their respective classes, and I will only call the show methods for each object. I also want to start working on the word class, because that will help me advance by a lot in the coming days. 
 
 
 
@@ -280,14 +279,17 @@ class Word
     myWordsArray[i] = myNewWord;
   }
 ```
-This is what the final outcome looks like for today:
 
 #### What worked:
+- I was really happy that I was able to move the player within the canvas' limits and with great ease. I was also excited to get the words falling. I think the hardest part was to get the actual words fit the boxes. I was able to figure out a simple formula to make sure that each box matched the length of the word itself. 
 
 #### What didn't work:
+- Some word objects are created outside the canvas, so only part are seen or they just don't show up at all. I also still haven't figured out how to make the objects start by falling slowly and then faster as the game proceeds. Furthermore, some of the words overlap with each other, because I decided to randomize the speed. 
+- I also think that the graphics need a lot of work. I enioy great aesthetics, so I don't like it when my work doesn't look pleasing to the eyes. I understand though, that this should not be my main focus right now. Hopefully, once I fix this, I will be able to move on and to great a really aesthetically pleasing game with amazing graohics. 
+- My computer started to slow down. I noticed that the loading time for the jave run screen was longer. It took a little longer for everything to run and that was kind of discouraging. But, I cleared some unnecessary things to save space, and I think that fixed it a little bit.
 
 #### Modifications:
-
+I want to work on the words speeding up as the game proceeds, because that will make it more exciting. I also want to fix the issue where words are formed outside the screen and I want to fix the words overlapping issue. Lastly, I want to hopefully be able to detect collision between the words. 
   
 <div align = "center">
   <h3> <u>Saturday 20th February, 2021</u></h3>
