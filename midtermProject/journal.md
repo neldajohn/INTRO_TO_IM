@@ -11,7 +11,27 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 Today, I focused on three main things:
 - To get a proper layout of my program. 
   - To do this, I opened a new document and I decided to add in a decsription of my program (that includes my name, date created, last modified, as well as a simple description of what the program does and any instructions to the user. 
-![](Media/description.png)
+```Processing
+/*
+
+Name: Nelda John
+Date created: 14-02-2021
+Last modified: 18-02-2021
+Due date: 04-03-2021
+ 
+Description:
+ This is my midterm project in the Introduction to IM course:
+ - This code displays Nelda's application of all the concepts learnt from the beginning of the semester including the use of functions, classes, conditional statements,
+ loops, and many other concepts. The main aim of this project, however, is to apply concepts of Object-Oriented Programming.
+ 
+Usage:
+ - There is a character that is supposed to jump up and down, or move left and right to "catch" words that are falling from the sky. Every time the character knocks a word, it gains 
+ points equal to the number of letters in the word. The character has the chance to miss only 5 words, and after that, the game will be over. To win the game, they should score all the words.
+ As the game runs, the score and the blocks left to lose are shown in the bottom right corner. If the game ends, the player is told whether they successfully got all words or not, and the game
+ restarts.
+ 
+ */
+```
 
   - Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. The final code I had on day one was:
 ```Processing
