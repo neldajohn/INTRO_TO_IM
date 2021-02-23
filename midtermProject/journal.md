@@ -5,7 +5,7 @@ With my midterm project, I am planning to create a word game that will involve w
 
 I could not find the game online, so I cannot directly atach a link. However, I would still like to acknowledge that this is not fully my idea. 
 
-### JOURNAL ENTRIES
+### JOURNAL ENTRIES:
 
 <div align = "center">
   <h3> <u>Thursday 18th February, 2021</u></h3>
@@ -107,6 +107,116 @@ And the outcome looked like the one below:
 <div align = "center">
   <h3> <u>Friday 19th February, 2021</u></h3>
   </div>
+  
+Today, I focused on these main things:
+- I worked on the player and platform classes. In both classes, I declared the variables responsible for my object's attributes and then I assigned values to them in their constructors. 
+  - For the platform class, I added a showPlatform() method in which I load and display the platform like I had done in the draw function yesterday. This is super useful, because I can then detect the collision of the words when they hit the platform, and this will affect how many blocks are left for the player to lose. This is what the code looks like now:
+ ```Processing
+ class Platform
+{
+  //attributes
+  int x_pos, y_pos;
+  int pWidth, pHeight;
+
+  //constructor method
+  Platform(int aXpos, int aYpos, int aWidth, int aHeight)
+  {
+    x_pos = aXpos;
+    y_pos = aYpos;
+    pWidth = aWidth;
+    pHeight = aHeight;
+  }
+
+  //display method
+  void showPlatform()
+  {
+    fill(0); 
+    PImage my_platform = loadImage("media/platform_8.png");
+    image(my_platform, x_pos, y_pos, pWidth, pHeight);
+  }
+}
+ ```
+  - For the player class, I added the updatePosition() method and I also gave the player a showPlayer() method. I decided to work further on the updatePosition method, so as to allow some movement for my player. I chose to give the player four different ranges of motion (i.e UP, LEFT, RIGHT, and DOWN). I incorporated this into my player's movements by using the keyCode() function in processing. Initially, I could not detect key releases and I did not want to add key handlers, so I decided to enclose everything into an If KeyPressed() function, so that the commands only work when the key is pressed, and not when the key is released. I also think this will be useful in applying gravity, although I am starting to wonder if I will need both gravity() and the DOWN keyCode(). I will decide this as I go, but in the mean time, I will work with the DOWN key alone, but still reserve some space for potentially including gravity later on. This is what the two methods look like:
+  ```Processing
+  class Player
+{
+  //attributes
+  float x_pos, y_pos, pWidth, pHeight, pGravity;
+  float pRadius = 25;
+  float x_velocity = 25;
+  float y_velocity = 25;
+  boolean alive = true;
+
+  //constructor method
+  Player(float aXpos, float aYpos, float aWidth, float aHeight, float aGravity)
+  {
+    //set all the attributes using the constructor
+    x_pos = aXpos;
+    y_pos = aYpos;
+    pWidth = aWidth;
+    pHeight = aHeight;
+    pGravity = aGravity;
+  }
+
+  //method that controls the player's gravity
+  void gravity()
+  {
+  }
+
+  //method that updates the player's position
+  void updatePlayer()
+  {
+    //check if the ball is within the canvas
+    if ((x_pos >= pRadius) && (x_pos <= width-pRadius) && (y_pos <= 635) && (y_pos >= pRadius))
+    {
+      if (keyPressed)
+      {
+        //if the player picks right
+        if (keyCode == RIGHT)
+        {
+          if (x_pos < width-pRadius)
+          {
+            x_pos +=  x_velocity;
+          }
+        } 
+        //if the player picks left
+        else if (keyCode == LEFT)
+        {
+          if (x_pos > pRadius)
+          {
+            x_pos -= x_velocity;
+          }
+        } 
+        //if the player picks up
+        else if (keyCode == UP)
+        {
+          if (y_pos > pRadius)
+          {
+            y_pos -= y_velocity;
+          }
+        }
+        //if the player picks down
+        else if (keyCode == DOWN)
+        {
+          if (y_pos < height- (100+pRadius))
+          {
+            y_pos += y_velocity;
+          }
+        }
+      }
+    }
+  }
+
+  //method that shows the player
+  void showPlayer()
+  {
+    updatePlayer(); //update the player's position first 
+    fill(0);
+    ellipse(x_pos, y_pos, pWidth, pHeight); //show the player's position
+  }
+  }
+  ```
+- I also started to work on the words class:
   
 <div align = "center">
   <h3> <u>Saturday 20th February, 2021</u></h3>
