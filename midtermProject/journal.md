@@ -90,9 +90,18 @@ class Word
   //show the word
 }
 ```
-
-- And the outcome looked like the one below:
+And the outcome looked like the one below:
 ![](Media/day_1.png)
+
+#### What worked:
+- The main thing that worked was that the platform I used had fit in perfectly with the height and width of my canvas. I tried several platforms, but they all were either stretched in the x or y directions and they looked blurry. So, I'm glad that I found one that actually works and looks good.
+
+
+#### What didn't work:
+- Since I did the bare minimum, I did not come across many hurdles. The main issue was that I displayed the platform and the circle before the background, so whne I ran my program, I only saw the background. However, that was easily fixed with just moving the lines to where they belong and everything worked just fine.
+
+#### Modifications:
+- I plan to display the platform and the player from their own classes. So, I will move the statements to their respective classes, and I will only call the show methods for each object.
 
 
 
