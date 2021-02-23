@@ -104,4 +104,17 @@ And the outcome looked like the one below:
 - I plan to display the platform and the player from their own classes. So, I will move the statements to their respective classes, and I will only call the show methods for each object.
 
 
+<div align = "center">
+  <h3> <u>Friday 19th February, 2021</u></h3>
+  </div>
+  
+<div align = "center">
+  <h3> <u>Saturday 20th February, 2021</u></h3>
+  </div>
+  
+  <div align = "center">
+  <h3> <u>Monday 21st February, 2021</u></h3>
+  </div>
+  
+
 
