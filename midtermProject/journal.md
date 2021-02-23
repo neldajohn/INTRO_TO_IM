@@ -286,6 +286,9 @@ class Word
   }
 ```
 
+This is the outcome for today's work:
+![](Media/move.gif)
+
 #### What worked:
 - I was really happy that I was able to move the player within the canvas' limits and with great ease. I was also excited to get the words falling. I think the hardest part was to get the actual words fit the boxes. I was able to figure out a simple formula to make sure that each box matched the length of the word itself. 
 
@@ -382,6 +385,7 @@ boolean Knock()
     return check;
   }
 ```
+
 #### What worked:
 - After so many trials, I was actually able to make the collisions smooth. I wanted to use distance and to say that whenever the distance between the player and any word is zero, then the score should go up, but that proved to be difficult because it involved more calculations. So, I decided to use x and y positions like desribed above. 
 
@@ -519,7 +523,10 @@ class Level_One
 ```
 - Creating a start page with boxes for different levels. I am not pleased with the way it turned out, but I am glad that I have an idea of what I want to work on. I like that the boxes seem orderly and that I can use mouseX and mouseY variables to detect where the user clicked, so that I can display the correct level. This is what the start page looks like as of now:
 
-- Changing my array of words into an arrayList. I realized that I will need to delete the words from the array so that Incan detect when the game is over. I need to do this both when the words get knocked by the player and when the words are lost by the player. That means that, currently I do not have a way to end the game. This means that the game will proceed even after all the words are knocked or all the words are lost. I tried doing this but my program crashed and I just absolutely failed to switch over. I will keep this at the back for now, then I will work on it
+- Changing my array of words into an arrayList. I realized that I will need to delete the words from the array so that Incan detect when the game is over. I need to do this both when the words get knocked by the player and when the words are lost by the player. That means that, currently I do not have a way to end the game. This means that the game will proceed even after all the words are knocked or all the words are lost. I tried doing this but my program crashed and I just absolutely failed to switch over. I will keep this at the back for now, then I will work on it. 
+
+This is the final outcome for today:
+![](Media/game.gif)
 
 #### What worked:
 - The main game class was successfully started. It also works just the way I wanted it too, so that means that it can be inherited and replicated for other levels too. 
