@@ -11,7 +11,8 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 Today, I focused on three main things:
 - To get a proper layout of my program. 
   - To do this, I opened a new document and I decided to add in a decsription of my program (that includes my name, date created, last modified, as well as a simple description of what the program does and any instructions to the user. Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. The final code I had on day one was:
-''' Processing
+```Processing
 
-'''
+
+```
 
