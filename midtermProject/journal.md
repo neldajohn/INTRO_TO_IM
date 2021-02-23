@@ -389,7 +389,7 @@ boolean Knock()
     return check;
   }
 ```
-In the end, this was the outcome I got:
+In the end, this was the outcome I got was the one below:
 ![](Media/game.gif)
 
 #### What worked:
@@ -409,6 +409,7 @@ Since everything is working well enough, I now want to have a start page where t
   <h3> <u>Monday 21st February, 2021</u></h3>
   <hr></hr>
   </div>
+  
 Today, I worked on:
 - Creating a main game class. I was able to move all my commands from the draw function into the main game class. Then I controlled when the game would start based on the MouseClicked() function. This means that when the game starts, the user can only see the cover page. But when they click anywhere with the mouse, then the main game class' show function is called, and then game proceeds like it was initially. Below is the code for the main game class as of now:
 
