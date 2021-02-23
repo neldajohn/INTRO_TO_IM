@@ -12,8 +12,14 @@ I could not find the game online, so I cannot directly atach a link. However, I 
   </div>
   
 Today, I focused on three main things:
-- To get a proper layout of my program. 
-  - To do this, I opened a new document and I decided to add in a decsription of my program (that includes my name, date created, last modified, as well as a simple description of what the program does and any instructions to the user. 
+- I opened a new document and added in a decsription of my program (that includes my name, date created, last modified, as well as a simple description of what the program does and any instructions to the user. This is to help me in my documentation of all my programs as well as anyone who would want to quickly skim through my work. It also helps Prof.Shiloh when he checks the code, so that he knows how exactly the program works. 
+
+- Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. I know that the actual needs may change as the program goes, but it is always nice to have clarity and some sort of direction before actually starting to code. 
+
+- Lastly, I decided to load the background images that I had for the game, and to display them when the game begins. This was to just help me get a feel of whether I liked any of the photos, and whether they would match my preferences. I also decided to go ahead and add a platform i.e. the place that my character will be standing on. I wanted to also figure out the dimensions of this platform , which would further help me in my calculations as the game progresses. I then also decided to position my character. I hard-coded the x and y positions as well as the height and width for an ellipse, but again, that was only because I was trying to get the proper dimensions of the character. 
+
+ - The final code is shown below:
+ 
 ```Processing
 /*
 
@@ -34,11 +40,7 @@ Usage:
  restarts.
  
  */
-```
-
-  - Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. The final code I had on day one was:
-```Processing
-
+ 
 //global variables
 /*
 wordsArray 
