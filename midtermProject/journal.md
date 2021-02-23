@@ -296,6 +296,7 @@ I want to work on the words speeding up as the game proceeds, because that will 
   </div>
  Today, I worked on the following things:
 - I included a function that detects when the player and any word collide with each other. I used the x and y positions of each word and the player. The first issue that occured here is that the player's position is incremented only by 25 , while each word can move for a random number between 1 and 5. So, there were never points that their positions really matched. To solve this, I just decided to say that whenever the y_position of the word was greater than or equal to that of the player, then that would be considered a knock. 
+
 ```Processing
 boolean Knock()
   {
@@ -329,6 +330,7 @@ boolean Knock()
     return check;
   }
 ```
+
 - I also wanted to display the game score as the knocks happened, so I used the global variables gameScore that I initiated in the very beginning of the game, and I incremented it by the number of letters in the word scored. I put this on top of the platform, so that it would not interfere with the words falling and it would also still not obstruct the platform, because I used the opacity function. 
 ![](Media/score.png)
 
