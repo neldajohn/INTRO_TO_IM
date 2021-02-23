@@ -10,7 +10,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 <div align = "center">
   <br></br>
   <hr></hr>
-  <h3> <u> <b>  Thursday 18th February, 2021  </b></u></h3>
+  <h3> <u> <b>  Friday 19th February, 2021  </b></u></h3>
   <hr></hr>
   </div>
   
@@ -109,8 +109,9 @@ I plan to display the platform and the player from their own classes. So, I will
 
 
 <div align = "center">
+  <br></br>
   <hr></hr>
-  <h3> <u> <b> || Friday 19th February, 2021 ||</b> </u></h3>
+  <h3> <u> <b> || Saturday 20th February, 2021 ||</b> </u></h3>
   <hr></hr>
   </div>
   
@@ -297,8 +298,9 @@ class Word
 I want to work on the words speeding up as the game proceeds, because that will make it more exciting. I also want to fix the issue where words are formed outside the screen and I want to fix the words overlapping issue. Lastly, I want to hopefully be able to detect collision between the words. 
   
 <div align = "center">
+  <br></br>
   <hr></hr>
-  <h3> <u> <b> || Saturday 20th February, 2021 ||</b></u></h3>
+  <h3> <u> <b> || Sunday 21st February, 2021 ||</b></u></h3>
   <hr></hr>
   </div>
  
@@ -392,6 +394,7 @@ boolean Knock()
 Since everything is working well enough, I now want to have a start page where the users can click and start the game at their own convenience. To achieve this, I will need to move all the commands from the draw function into a class. Given that I plan to have several levels, I think I'll need to name this class LevelOne, and then I will name the others LevelTwo, LevelThree, LevelFour. That is, if I can do four levels - which is my aim.  
   
   <div align = "center">
+  <br></br>
   <hr></hr>
   <h3> <u>Monday 21st February, 2021</u></h3>
   <hr></hr>
