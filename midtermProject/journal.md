@@ -98,7 +98,7 @@ And the outcome looked like the one below:
 
 
 #### What didn't work:
-- Since I did the bare minimum, I did not come across many hurdles. The main issue was that I displayed the platform and the circle before the background, so whne I ran my program, I only saw the background. However, that was easily fixed with just moving the lines to where they belong and everything worked just fine.
+- Since I did the bare minimum, I did not come across many hurdles. The main issue was that I displayed the platform and the circle before the background, so when I ran my program, I only saw the background. However, that was easily fixed with just moving the lines to where they belong and everything worked just fine.
 
 #### Modifications:
 - I plan to display the platform and the player from their own classes. So, I will move the statements to their respective classes, and I will only call the show methods for each object.
@@ -141,7 +141,7 @@ Today, I focused on these main things:
  ```
 - For the player class: 
   - I added the updatePosition() method and I also gave the player a showPlayer() method. I decided to work further on the updatePosition method, so as to allow some movement for my player. I chose to give the player four different ranges of motion (i.e UP, LEFT, RIGHT, and DOWN). I incorporated this into my player's movements by using the keyCode() function in processing. Initially, I could not detect key releases and I did not want to add key handlers, so I decided to enclose everything into an If KeyPressed() function, so that the commands only work when the key is pressed, and not when the key is released. I also think this will be useful in applying gravity, although I am starting to wonder if I will need both gravity() and the DOWN keyCode(). I will decide this as I go, but in the mean time, I will work with the DOWN key alone, but still reserve some space for potentially including gravity later on. This is what the two methods look like:
-  ```Processing
+```Processing
   class Player
 {
   //attributes
@@ -220,7 +220,67 @@ Today, I focused on these main things:
   }
   }
   ```
-- I also started to work on the words class:
+- I also started to work on the Word class, because now that the player could move, I could also make the words move. But, my main issue here is that I want the words to start coming down slowly at first and then they can start dropping down faster. I still can't see how I will do that, but all I know for now is that I will have to have the words in an array. I am considering an arrayList, because it is flexible, and I can use the methods it comes with, but for the sake of simplicity, I will just use an array for now, especially because I know the exact number of words I have in my csv file. I included an updateWord() function too, because I would need the words to be falling, that means that they will need their positions to be updated constantly. 
+```Processing
+class Word
+{
+  //attributes
+  float x_pos, word_width, word_height, word_colorR, word_colorG, word_colorB, word_speed;
+  float y_pos;
+  String the_word;
+
+  //constructor
+  Word(String aWord, float aXpos, float aYpos, float aWidth, float aHeight, float aColorR, float aColorG, float aColorB, float aSpeed)
+  {
+    the_word = aWord;
+    x_pos = aXpos;
+    y_pos = aYpos;
+    word_width = aWidth;
+    word_height = aHeight;
+    word_colorR = aColorR;
+    word_colorG = aColorG;
+    word_colorB = aColorB;
+    word_speed = aSpeed;
+  }
+
+  //update the position of the word
+  void update()
+  {
+    if (y_pos < height)
+    {
+      y_pos += word_speed;
+    }
+  }
+
+  //method that shows word
+  void displayWord()
+  {
+    fill(word_colorR, word_colorG, word_colorB);
+    rect(x_pos, y_pos, word_width, word_height);
+
+    //typing the word
+    PFont f = createFont("monaco", 15);
+    textFont(f, 15);
+    fill(255);
+    textAlign(CENTER);
+    text(the_word, x_pos+(word_width/2), y_pos + (3*(word_height/4)));
+  }
+}
+```
+
+- I decided to load the csv file that contains all the words that I will be using in the game. I loaded the words in the setup function, because I only want this to be done once. Then I am going to display them all together by using a for loop. Because I already have a showWord() method in my word class, I camn just call one method for all objects in myWordsArray. Below is the code for what that looks like as of now: 
+```Processing
+  words = loadStrings("animals.csv"); //load the animal data
+  numberOfWords = words.length;
+  //use a for loop to add all the words in the list to an array
+  for (int i = 0; i < words.length; i++)
+  {
+    float my_length = random(-3000, 0);
+    Word myNewWord = new Word(words[i], (i+1)*25, my_length, 10*(words[i].length()), 20, 73, 182, 237, random(1, 5)); 
+    myWordsArray[i] = myNewWord;
+  }
+```
+This is what the final outcome looks like for today:
 
 #### What worked:
 
