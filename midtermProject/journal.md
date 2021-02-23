@@ -8,6 +8,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 ### JOURNAL ENTRIES:
 
 <div align = "center">
+  <br></br>
   <hr></hr>
   <h3> <u> <b>  Thursday 18th February, 2021  </b></u></h3>
   <hr></hr>
@@ -391,8 +392,140 @@ boolean Knock()
 Since everything is working well enough, I now want to have a start page where the users can click and start the game at their own convenience. To achieve this, I will need to move all the commands from the draw function into a class. Given that I plan to have several levels, I think I'll need to name this class LevelOne, and then I will name the others LevelTwo, LevelThree, LevelFour. That is, if I can do four levels - which is my aim.  
   
   <div align = "center">
+  <hr></hr>
   <h3> <u>Monday 21st February, 2021</u></h3>
+  <hr></hr>
   </div>
+Today, I worked on:
+- Creating a main game class. I was able to move all my commands from the draw function into the main game class. Then I controlled when the game would start based on the MouseClicked() function. This means that when the game starts, the user can only see the cover page. But when they click anywhere with the mouse, then the main game class' show function is called, and then game proceeds like it was initially. Below is the code for the main game class as of now:
+```Processing
+//class level_frog
+class Level_One
+{
+  //attributes
+  float level_width, level_height;
+  boolean gameStart = false;
+
+  Player my_circle = new Player(25, 625, 50, 50, 10);
+
+  //constructor method
+  Level_One(float aWidth, float aHeight)
+  {
+    level_width = aWidth;
+    level_height = aHeight;
+  }
+
+  //method that checks for win
+  boolean checkWin()
+  {
+    return my_circle.WonGame();
+  }
+
+  //method that checks for losses
+  boolean checkLoss()
+  {
+    if (my_circle.alive == true)
+    {
+      return false;
+    } else
+    {
+      return true;
+    }
+  }
+
+  //method that shows the level
+  void showLevel()
+  {
+
+    if (gameStart == false)
+    {
+      background(0);
+      PImage my_cover = loadImage("media/cover.png");
+      image(my_cover, 0, 0);
+
+      PFont f = createFont("monaco", 50);
+      textFont(f, 50);
+      fill(255, 255, 255, 60);
+      rect((width/2)-200, (height/2)-150, 400, 100);
+      //levels boxes
+      rect((width/2)-220, (height/2)+20, 200, 40);
+      rect((width/2)-220, (height/2)+70, 200, 40);
+      rect((width/2)+20, (height/2)+20, 200, 40);
+      rect((width/2)+20, (height/2)+70, 200, 40);
+
+      fill(0);
+      textAlign(CENTER);
+      text("WORD GAME", width/2, (height/2)-75);
+      textFont(f, 25);
+      text("Click Anywhere to start", width/2, (height/2));
+      textAlign(LEFT); 
+      text("LEVEL ONE", (width/2)-200, (height/2)+50);
+      text("LEVEL TWO", (width/2)+50, (height/2)+50);
+      text("LEVEL THREE", (width/2)- 200, (height/2) + 100);
+      text("LEVEL FOUR", (width/2) + 50, (height/2) + 100);
+    } else
+    {
+      checkWin();
+      checkLoss();
+      PImage my_background = loadImage("media/blue_background.png");
+      Platform my_platform = new Platform(0, height-100, width, 100);
+      if (!(checkWin()) && !(checkLoss()))
+      {
+        //display the platform
+        image(my_background, 0, 0);
+        //show the player
+        my_circle.showPlayer();
+
+        //show the words falling
+        for (int i = 0; i < myWordsArray.length; i++)
+        {
+          myWordsArray[i].displayWord();
+          myWordsArray[i].update();
+        }
+
+        my_platform.showPlatform();
+        my_circle.Knock();
+        my_circle.LostWords();
+        my_circle.WonGame();
+
+
+        PFont f = createFont("monaco", 20);
+        textFont(f, 20);
+        fill(255, 255, 255, 60);
+        rect(width-230, height-90, 220, 80);
+        fill(0);
+        textAlign(CENTER);
+        text("SCORE: ", width-150, height-65);
+        text(game_score, width-90, height-65);
+
+        text("BLOCKS LEFT:", width-130, height-30);
+        text(blocks_left, width-35, height-30);
+      } else if (checkWin())
+      {
+        background(0);
+      } else if (checkLoss())
+      {
+        background(255);
+      }
+      checkWin();
+      checkLoss();
+    }
+  }
+}
+```
+- Changing my array of words into an arrayList. I realized that I will need to delete the words from the array so that Incan detect when the game is over. I need to do this both when the words get knocked by the player and when the words are lost by the player. That means that, currently I do not have a way to end the game. This means that the game will proceed even after all the words are knocked or all the words are lost. I tried doing this but my program crashed and I just absolutely failed to switch over. I will keep this at the back for now, then I will work on it
+
+#### What worked:
+
+#### What didn't work:
+
+#### Modifications:
+- I need to fix the issue with the game not being able to end. I will either have to look for a way to delete elements from my array, or I will have to switch to an arraylist so that I can use the remove() method easily when there is a knock or a word is lost.
+- I also need to introduce the actual character instead of the circle. There may be a few changes that need to be made, but given that the main model is working, I think this will not be an issue. 
+- I need to introduce the end game page, so that when the game is over, the player is informed, their score is printed, and they are notified on whether they won or lost. This means that I will also need to look for a way to go back to the cover page from the end game page. I think I have an idea on how to do this. Currently, I think I may need to use mouseClicked() just like I did with the cover page. The other idea I have is to give the cover page a timer. I know that this is possible in python, so I may have to research on what it looks like for java. I would make the program sleep for , say 6 seconds while showing the end game page. And then I will immediately display the cover page again.
+
+
+  
   
 
 
