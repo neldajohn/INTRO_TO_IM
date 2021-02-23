@@ -1,6 +1,6 @@
 ## MY MIDTERM PROJECT JOURNAL
 
-#### Goal:
+### DESCRIPTION:
 With my midterm project, I am planning to create a word game that will involve words falling from the sky and a character collecting the words. This game was inspired by a game that I used to play in elementary school during my Typing class sessions. We were given short prompts that we had to type into the computer, and once we were done, we were allowed to play the game. The difference between that game and mine is that in mine, players have to jump and move around to collect the words, but in my elementary school typing class, players had to type in the words they see. 
 
 I could not find the game online, so I cannot directly atach a link. However, I would still like to acknowledge that this is not fully my idea. 
@@ -8,7 +8,7 @@ I could not find the game online, so I cannot directly atach a link. However, I 
 ### JOURNAL ENTRIES
 
 <div align = "center">
-  <h3> Thursday 18th February, 2021</h3>
+  <h3> <u>Thursday 18th February, 2021</u></h3>
   </div>
   
 Today, I focused on three main things:
