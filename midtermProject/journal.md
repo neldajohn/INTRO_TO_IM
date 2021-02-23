@@ -22,65 +22,77 @@ Today, I focused on three main things:
  
 ```Processing
 /*
-
-Name: Nelda John
-Date created: 14-02-2021
-Last modified: 18-02-2021
-Due date: 04-03-2021
+ Name: Nelda John
+ Date created: 14-02-2021
+ Last modified: 18-02-2021
+ Due date: 04-03-2021
  
-Description:
+ Description:
  This is my midterm project in the Introduction to IM course:
  - This code displays Nelda's application of all the concepts learnt from the beginning of the semester including the use of functions, classes, conditional statements,
  loops, and many other concepts. The main aim of this project, however, is to apply concepts of Object-Oriented Programming.
  
-Usage:
+ Usage:
  - There is a character that is supposed to jump up and down, or move left and right to "catch" words that are falling from the sky. Every time the character knocks a word, it gains 
  points equal to the number of letters in the word. The character has the chance to miss only 5 words, and after that, the game will be over. To win the game, they should score all the words.
  As the game runs, the score and the blocks left to lose are shown in the bottom right corner. If the game ends, the player is told whether they successfully got all words or not, and the game
  restarts.
- 
  */
- 
+
 //global variables
 /*
 wordsArray 
-gameScore
-blocksLeft
-numberOfWords
-*/
+ gameScore
+ blocksLeft
+ numberOfWords
+ */
 
 void setup()
 {
-size(1280,720);
+  size(1280, 720);
 }
 
 void draw()
 {
+  //load and show background
+  PImage my_background = loadImage("media/blue_background.png"); 
+  image(my_background, 0, 0);
+  //load and show platform
+  PImage my_platform = loadImage("media/platform_8.png");
+  image(my_platform, 0, height-100, width, 100);
+  
+  //show circle (player)
+  fill(0);
+  ellipse(25,height-125,50,50);
 }
 
 class Player
 {
-//attributes [xpos, ypos, width, height, gravity, x_speed, y_speed, radius]
-//constructor method
-//gravity method
-//update the player's position
-//show the player
+  //attributes [xpos, ypos, width, height, gravity, x_speed, y_speed, radius]
+  //constructor method
+  //gravity method
+  //update the player's position
+  //show the player
 }
 
 class Platform
 {
-//attributes [xpos, ypos, width, height]
-//constructor method
-//display the platform
+  //attributes [xpos, ypos, width, height]
+  //constructor method
+  //display the platform
 }
 
 class Word
 {
-//attributes [xpos, ypos, width of the box, height of the box, color of the box]
-//constructor method
-//update the word's position
-//show the word
+  //attributes [xpos, ypos, width of the box, height of the box, color of the box]
+  //constructor method
+  //update the word's position
+  //show the word
 }
-
 ```
+
+- And the outcome looked like the one below:
+![](Media/day_1.png)
+
+
 
