@@ -292,8 +292,56 @@ class Word
 I want to work on the words speeding up as the game proceeds, because that will make it more exciting. I also want to fix the issue where words are formed outside the screen and I want to fix the words overlapping issue. Lastly, I want to hopefully be able to detect collision between the words. 
   
 <div align = "center">
-  <h3> <u>Saturday 20th February, 2021</u></h3>
+  <h3> <u> <b> || Saturday 20th February, 2021 ||</b></u></h3>
   </div>
+ Today, I worked on the following things:
+- I included a function that detects when the player and any word collide with each other. I used the x and y positions of each word and the player. The first issue that occured here is that the player's position is incremented only by 25 , while each word can move for a random number between 1 and 5. So, there were never points that their positions really matched. To solve this, I just decided to say that whenever the y_position of the word was greater than or equal to that of the player, then that would be considered a knock. 
+```Processing
+boolean Knock()
+  {
+    //prepare a new array list to copy all the words not scored
+    ArrayList<Word> myNewArray = new ArrayList<Word>();
+    boolean check = false;
+
+    //iterate through the array of words
+    for (int i = 0; i < myWordsArray.length; i++)
+    {
+      float y_knockPoint = (myWordsArray[i].y_pos + myWordsArray[i].word_height);
+      float x_knockPoint = (myWordsArray[i].x_pos + myWordsArray[i].word_width);
+      if ((y_knockPoint >= y_pos - pRadius) && (y_knockPoint <= y_pos + pRadius) && (x_pos+pRadius >= myWordsArray[i].x_pos) && (x_pos - pRadius <= x_knockPoint ) )
+      {
+        game_score += myWordsArray[i].the_word.length();
+        myScoredWords.add(myWordsArray[i]);
+        check = true;
+      } else
+      {
+        myNewArray. add(myWordsArray[i]);
+      }
+    }
+
+    int count = 0;
+    //paste all the new 
+    for (Word myword : myNewArray)
+    {
+      myWordsArray[count] = myword;
+      count++;
+    }
+    return check;
+  }
+```
+- I also wanted to display the game score as the knocks happened, so I used the global variables gameScore that I initiated in the very beginning of the game, and I incremented it by the number of letters in the word scored. I put this on top of the platform, so that it would not interfere with the words falling and it would also still not obstruct the platform, because I used the opacity function. 
+![](Media/score.png)
+
+#### What worked:
+- After so many trials, I was actually able to make the collisions smooth. I wanted to use distance and to say that whenever the distance between the player and any word is zero, then the score should go up, but that proved to be difficult because it involved more calculations. So, I decided to use x and y positions like desribed above. 
+
+#### What didn't work:
+- The main issue I faced today was detecting collisions between my player and the words. I tried different formulas, but I just could not get it to work until very late at night. I realized that initially I was checking for words that did not collide first, so that was trickier. And then I also used the wrong symbol (I used gerater than instead of less than), so that is why the player could catch words that were even just below the player's y position depsite not being close to the player's x position.
+- I don't know what to do with the words that fall beyond the platform i.e. if the player doesn't catch them  
+- I still haven't figured out a way to make the words not overlap. I think I will need to not randomize the speeds. But that would mean that the words will be falling in straight lines (which is boring). The other option is to make the words fall in grids, but they differ in size, so that will be tricky. I will be brainstorming a couple more ideas as the week goes on. I know I can fix this. 
+
+#### Modifications:
+Since everything is working well enough, I now want to have a start page where the users can click and start the game at their own convenience. To achieve this, I will need to move all the commands from the draw function into a class. Given that I plan to have several levels, I think I'll need to name this class LevelOne, and then I will name the others LevelTwo, LevelThree, LevelFour. That is, if I can do four levels - which is my aim.  
   
   <div align = "center">
   <h3> <u>Monday 21st February, 2021</u></h3>
