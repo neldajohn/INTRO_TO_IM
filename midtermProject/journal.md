@@ -535,7 +535,8 @@ class Level_One
 
 #### What worked:
 - The main game class was successfully started. It also works just the way I wanted it too, so that means that it can be inherited and replicated for other levels too. 
-- I was also able to make a start page and to get the game to start only when the user clicked the mouse.  
+- I was also able to make a start page and to get the game to start only when the user clicked the mouse. This is what the start page looks like:
+![](Media/cover.gif)  
 
 #### What didn't work:
 - I was not able to move my words into an array list. I still want to give this another try, because it will make my life so much easier, and it could make the game be used for almost any data set, because the number of words will not matter. 
