@@ -398,6 +398,7 @@ Since everything is working well enough, I now want to have a start page where t
   </div>
 Today, I worked on:
 - Creating a main game class. I was able to move all my commands from the draw function into the main game class. Then I controlled when the game would start based on the MouseClicked() function. This means that when the game starts, the user can only see the cover page. But when they click anywhere with the mouse, then the main game class' show function is called, and then game proceeds like it was initially. Below is the code for the main game class as of now:
+
 ```Processing
 //class level_frog
 class Level_One
@@ -513,11 +514,16 @@ class Level_One
   }
 }
 ```
+- Creating a start page with boxes for different levels. I am not pleased with the way it turned out, but I am glad that I have an idea of what I want to work on. I like that the boxes seem orderly and that I can use mouseX and mouseY variables to detect where the user clicked, so that I can display the correct level. This is what the start page looks like as of now:
+
 - Changing my array of words into an arrayList. I realized that I will need to delete the words from the array so that Incan detect when the game is over. I need to do this both when the words get knocked by the player and when the words are lost by the player. That means that, currently I do not have a way to end the game. This means that the game will proceed even after all the words are knocked or all the words are lost. I tried doing this but my program crashed and I just absolutely failed to switch over. I will keep this at the back for now, then I will work on it
 
 #### What worked:
+- The main game class was successfully started. It also works just the way I wanted it too, so that means that it can be inherited and replicated for other levels too. 
+- I was also able to make a start page and to get the game to start only when the user clicked the mouse.  
 
 #### What didn't work:
+- I was not able to move my words into an array list. I still want to give this another try, because it will make my life so much easier, and it could make the game be used for almost any data set, because the number of words will not matter. 
 
 #### Modifications:
 - I need to fix the issue with the game not being able to end. I will either have to look for a way to delete elements from my array, or I will have to switch to an arraylist so that I can use the remove() method easily when there is a knock or a word is lost.
