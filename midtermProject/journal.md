@@ -294,7 +294,9 @@ I want to work on the words speeding up as the game proceeds, because that will 
 <div align = "center">
   <h3> <u> <b> || Saturday 20th February, 2021 ||</b></u></h3>
   </div>
+ 
  Today, I worked on the following things:
+ - 
  - I included a function that detects when the player and any word collide with each other. I used the x and y positions of each word and the player. The first issue that occured here is that the player's position is incremented only by 25 , while each word can move for a random number between 1 and 5. So, there were never points that their positions really matched. To solve this, I just decided to say that whenever the y_position of the word was greater than or equal to that of the player, then that would be considered a knock. 
 
 ```Processing
