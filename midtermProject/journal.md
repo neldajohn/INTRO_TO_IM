@@ -112,7 +112,8 @@ And the outcome looked like the one below:
   
 Today, I focused on these main things:
 - I worked on the player and platform classes. In both classes, I declared the variables responsible for my object's attributes and then I assigned values to them in their constructors. 
-  - For the platform class, I added a showPlatform() method in which I load and display the platform like I had done in the draw function yesterday. This is super useful, because I can then detect the collision of the words when they hit the platform, and this will affect how many blocks are left for the player to lose. This is what the code looks like now:
+- For the platform class: 
+  - I added a showPlatform() method in which I load and display the platform like I had done in the draw function yesterday. This is super useful, because I can then detect the collision of the words when they hit the platform, and this will affect how many blocks are left for the player to lose. This is what the code looks like now:
  ```Processing
  class Platform
 {
@@ -138,7 +139,8 @@ Today, I focused on these main things:
   }
 }
  ```
-  - For the player class, I added the updatePosition() method and I also gave the player a showPlayer() method. I decided to work further on the updatePosition method, so as to allow some movement for my player. I chose to give the player four different ranges of motion (i.e UP, LEFT, RIGHT, and DOWN). I incorporated this into my player's movements by using the keyCode() function in processing. Initially, I could not detect key releases and I did not want to add key handlers, so I decided to enclose everything into an If KeyPressed() function, so that the commands only work when the key is pressed, and not when the key is released. I also think this will be useful in applying gravity, although I am starting to wonder if I will need both gravity() and the DOWN keyCode(). I will decide this as I go, but in the mean time, I will work with the DOWN key alone, but still reserve some space for potentially including gravity later on. This is what the two methods look like:
+- For the player class: 
+  - I added the updatePosition() method and I also gave the player a showPlayer() method. I decided to work further on the updatePosition method, so as to allow some movement for my player. I chose to give the player four different ranges of motion (i.e UP, LEFT, RIGHT, and DOWN). I incorporated this into my player's movements by using the keyCode() function in processing. Initially, I could not detect key releases and I did not want to add key handlers, so I decided to enclose everything into an If KeyPressed() function, so that the commands only work when the key is pressed, and not when the key is released. I also think this will be useful in applying gravity, although I am starting to wonder if I will need both gravity() and the DOWN keyCode(). I will decide this as I go, but in the mean time, I will work with the DOWN key alone, but still reserve some space for potentially including gravity later on. This is what the two methods look like:
   ```Processing
   class Player
 {
