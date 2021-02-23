@@ -32,8 +32,8 @@ Usage:
  
  */
 ```
--
- - Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. The final code I had on day one was:
+
+  - Next, I decided to add skeletons of the main functions and classes that I would need in the program. This was just to help me have an idea of how much work I would need to do, so that I could plan ahead. The final code I had on day one was:
 ```Processing
 
 //global variables
