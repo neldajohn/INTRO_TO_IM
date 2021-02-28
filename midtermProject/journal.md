@@ -111,7 +111,7 @@ I plan to display the platform and the player from their own classes. So, I will
 <div align = "center">
   <br></br>
   <hr></hr>
-  <h3> <u> <b> || Saturday 20th February, 2021 ||</b> </u></h3>
+  <h3> <u> <b> Saturday 20th February, 2021 </b> </u></h3>
   <hr></hr>
   </div>
   
