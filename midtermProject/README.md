@@ -23,16 +23,16 @@ And their score and results are displayed at the end like so:
 - Initially, I added a background photo, a platform, as well as a plain circle. I knew that I was going to use a small sprite, so I decided that I was going to only need a 50 by 50 figure. This is what it looked like:
 ![](Media/day_1.png)
 
-- Next, I decided to incorporate the keyCodes so that my ball could have motion. I decided that I would need all four (instead of three), because I wanted my player to also be able to move down. For that reason, my player does not need gravity. This is what the final project looked like after I was able to move the ball:
+- Next, I decided to incorporate the keyCodes so that my ball could have motion. I decided that I would need all four (instead of three), because I wanted my player to also be able to move down. For that reason, my player does not need gravity. This is what the final project looked like after I was able to move the ball and using keyCodes:
 ![](Media/move.gif)
 
 - I then created a cover page, so that I could display it while waiting for the game to start. I only allowed the player to click anywhere at first, just to mka eit easy, but I still made the boxes for the levels, because I knew that I would need them later. 
 ![](Media/cover.gif)
 
-- After that, I decided to create all my word objects. I gave them x and y positions, and also created a display method as well as an update method. This was to ensure that the words will look like they were falling after each consecutive frameCount. Eventually, this is what I had:
+- After that, I decided to create all my word objects. I gave them x and y positions, and also created a display method as well as an update method. This was to ensure that the words will look like they were falling after each consecutive frameCount.
 ![](Media/fall.gif)
 
-- And after achieving all these functionalities, my game was ready to be used. So, after the first week, this is what the final game was:
+- And after achieving all these functionalities, my game was ready to be used. So, after the first week, this was the final game :
 ![](Media/game.gif)
 
 ## Major problems:
