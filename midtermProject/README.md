@@ -1,13 +1,19 @@
-# MIDTERM PROJECT: WORD-GAME
+# MIDTERM PROJECT: CATCH ME IF YOU CAN!
 
 ## Description:
-- This is a game of words falling from the sky. The main task that the player has it to catch the words and to make sure that not more than 5 words are lost. 
+- This is a game of words falling from the sky. The main task that the player has it to catch the words and to make sure that not more than 5 words are lost. Initially, words fall slowly so that the player can familiarize themselves with the game, but as the game proceeds, more words fall and at a faster speed. The player has four ranges of motion: UP, DOWN, LEFT, RIGHT and they can be achieved by using the respective UP, DOWN, LEFT and RIGHT arrow keys on their computer. If the player manages to score all the points in the words, they will receive a message telling them that they won, otherwise, they will be told that the game is over, and their score will be displayed on the end screen:
 
 ### - Instructions:
 - Use the LEFT and RIGHT keys to move sideways
 - Use the UP and DOWN keys to move vertically
 - Knock the words as they fall.
 - Make sure that not more than 5 words are lost
+
+All these instructions are found on the start page along with the options of levels that they can pick from:
+![](Media/cover_page.png) 
+
+And their score and results are displayed at the end like so:
+![](Media/end_page.png) 
 
 ## Inspiration:
 - This game was inspired by a game that I used to play in elementary school during my typing class. We were given some prompts that we had to type into the computer, and
