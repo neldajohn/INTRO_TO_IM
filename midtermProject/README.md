@@ -27,7 +27,7 @@ And their score and results are displayed at the end like so:
 ![](Media/move.gif)
 
 - I then created a cover page, so that I could display it while waiting for the game to start. I only allowed the player to click anywhere at first, just to mka eit easy, but I still made the boxes for the levels, because I knew that I would need them later. 
-![] (Media/cover.gif)
+![](Media/cover.png)
 
 
 
