@@ -311,7 +311,7 @@ I want to work on the words speeding up as the game proceeds, because that will 
 <div align = "center">
   <br></br>
   <hr></hr>
-  <h3> <u> <b> || Sunday 21st February, 2021 ||</b></u></h3>
+  <h3> <u> <b> Sunday 21st February, 2021 </b></u></h3>
   <hr></hr>
   </div>
  
@@ -580,6 +580,18 @@ Given that I hadn't worked on the game for so long, today I decided to finish it
   <h3> <u>Thursday March 4, 2021</u></h3>
   <hr></hr>
   </div>
+
+Today, I was able to fix the issue of objects being formed multiple times, I realized that I was deleting objects from the wordsArray once they got knocked, but when displaying... I was still looping the same number of times as the original number of elements. So, for example... if I knock one word, the reamining number of words is 70, but my for loop would go for 71. 
+
+#### What worked
+- I decided to still loop 71 times, but I would store the position of all the knocked up words, so my for loop would skip any position in the list of "scored" words. This worked effectively, and I think now my game is ready to go.
+
+#### What didn't work:
+- My initial plan was to include a different category per level, but given the time-crunch, I was not able to do that. However, I will still keep modifying the game, because I want my little brother to play it. Given that my target audience is small kids, T still think the different background colors and smiley faces will impress them. Finally, this is my outcome:
+![](Media/orange.gif)
+
+#### Modifications:
+- I would love to add different categories per level, and to also include sprites instead of plain smiley faces. Overall, though I am impressed with my work, and I am proud of what I have accomplished with this project.
 
 
 
