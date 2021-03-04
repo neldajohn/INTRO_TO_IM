@@ -561,6 +561,8 @@ Given that I hadn't worked on the game for so long, today I decided to finish it
 - Lastly, I implemented the multiple levels that one could select in the beginning, and I also modified the start page to look like so:
 ![](Media/cover_page.png)
 
+- I also added background music when the game is proceeding. Then, I also added sound effects when the player knocks a word and when a word is lost. 
+
 - Finally, this is what the game looked like while being played for Level one:
 ![](Media/blue.gif)
 
