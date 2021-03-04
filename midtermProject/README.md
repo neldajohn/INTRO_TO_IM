@@ -20,6 +20,14 @@ And their score and results are displayed at the end like so:
 
 ## The Process:
 - For a more detailed process, please look into my journal.md file, where I documented by daily progress with the game. Below is a much more generalized and summarized decsription of what the process looked like:
+- Initially, I added a background photo, a platform, as well as a plain circle. I knew that I was going to use a small sprite, so I decided that I was going to only need a 50 by 50 figure. This is what it looked like:
+![](Media/day_1.png)
+
+- Next, I decided to incorporate the keyCodes so that my ball could have motion. I decided that I would need all four (instead of three), because I wanted my player to also be able to move down. For that reason, my player does not need gravity. This is what the final project looked like:
+![](Media/move.gif)
+
+- I then created a cover page, so that I could display it while waiting for the game to start. I only allowed the player to click anywhere at first, just to mka eit easy, but I still made the boxes for the levels, because I knew that I would need them later. 
+![] (Media/cover.gif)
 
 
 
