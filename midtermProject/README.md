@@ -46,9 +46,46 @@ And their score and results are displayed at the end like so:
 ## Modifications and Solutions:
 
 - To fix the first problem, I made a Game Class, so that my game was an object that would be instantiated each time the player clicked the mouse. And, once the game ended, I would make the game object null (to delete it), and I would wait for the player to click the mouse so that the object is re-created once more. This was a very quick fix, and it also helped me because I could make as many levels as I want just because everything was already in a class.
-- To solve the second hurdle, I decided to use two separet functions in order to check for winning or losing separately. I realized that they have very different mechanisms, and that it would be wrong to want to check for both given the set up of my game. 
-
+- To solve the second hurdle, I decided to use two separate functions in order to check for winning or losing separately. I realized that they have very different mechanisms, and that it would be wrong to want to check for both given the set up of my game. 
 - I decided to make an arraylist of the positions of all the words that had been knocked by the player. And then, before displaying any word, I would check to confirm if the word had been knocked or not. If it was, it would not be displayed or updated. The other possible solution was to make the objects null if they were either knocked or lost, and then I would only displayed objects that were not null. 
+```Processing
+boolean LostWords()
+  {
+    //prepare a new array to copy
+    boolean check = false;
+
+    //iterate through the array of words
+    for (int i = 0; i < myWordsArray.length; i++)
+    {
+
+      if (myWordsArray[i]. y_pos >= height-100)
+      {
+        boolean lost = false;
+        for (int num : lostPositions)
+        {
+          if (i == num)
+          {
+            lost = true;
+          }
+        }
+        if (lost == false)
+        {
+          if (blocks_left > 0)
+          {
+            blocks_left -= 1;
+            lostPositions.add(i);
+            lostwordfile.play();
+          } else if (blocks_left <= 0)
+          {
+            alive = false;
+          }
+        }
+        check = true;
+      }
+    }
+    return check;
+  }
+```
 
 ## Interesting things I discovered:
 - I think the most interesting aspect of all of this is just how anything is possible with coding. As a five-year old, I would never believe that some day I would be able to code the very game that I was playing on my screen during typing class. That game was one of my highlights in elementary school, and I am so proud of myself that I was able to replicate it. 
