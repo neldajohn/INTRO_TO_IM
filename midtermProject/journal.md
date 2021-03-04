@@ -546,8 +546,40 @@ class Level_One
 - I also need to introduce the actual character instead of the circle. There may be a few changes that need to be made, but given that the main model is working, I think this will not be an issue. 
 - I need to introduce the end game page, so that when the game is over, the player is informed, their score is printed, and they are notified on whether they won or lost. This means that I will also need to look for a way to go back to the cover page from the end game page. I think I have an idea on how to do this. Currently, I think I may need to use mouseClicked() just like I did with the cover page. The other idea I have is to give the cover page a timer. I know that this is possible in python, so I may have to research on what it looks like for java. I would make the program sleep for , say 6 seconds while showing the end game page. And then I will immediately display the cover page again.
 
+<div align = "center">
+  <br></br>
+  <hr></hr>
+  <h3> <u>Wednesday March 3, 2021</u></h3>
+  <hr></hr>
+  </div>
 
-  
-  
+Given that I hadn't worked on the game for so long, today I decided to finish it up and add all the modifications listed in the preceeding entry. Therefore, today I worked on:
+- Adding a flag that changes depending on whether the game has ended or not. This was very easy to implement, so I just added a checker "WonGame" to see if they scored all the total points, or "blocks_left" to see if the user lost more than 5 blocks. 
+- Adding the end game page. I figured that a simple "GAME OVER" and "SCORE: --- " would work fine. I also decided to add an extra line to let the user know that they could easily click anywhere to restart the game. The final end page looked like so:
+![](Media/end_page.png)
+- I also added smiley faces as characters in my game. I tried working with sprites, but given that I only started doing my final touches a day before the game was due, I could only do so much. However, this is a lesson that I will carry with me: Space out your work, Nelda!
+- Lastly, I implemented the multiple levels that one could select in the beginning, and I also modified the start page to look like so:
+![](Media/cover_page.png)
+
+- Finally, this is what the game looked like while being played for Level one:
+![](Media/blue.gif)
+
+#### What worked:
+- I was happy that all the above implementations worked great. I was able to figure things out within a very short amount of time. This was very exciting for me, because I was beginning to get worried that I wouldn't finish. I love that I found the right font for my game as well. I was quite worried that "Monaco" just wasn't for me... so I love "Cochin".
+
+#### What didn't work:
+- I noticed that some of the words were being created and displayed multiple times. I tried fixing this issue... but I just couldn't figure out a way. I reached out to Prof.Shiloh, and he was kind enough to take a look at my code and to guide me towards potential areas that could have caused this. However, after fixing all of that... the game still produced this error. I plan to work on it tomorrow, so hopefully I will get it done.
+
+#### Modifications:
+- Fix the issue of some word objects being created more than once and being displayed several times.
+
+
+<div align = "center">
+  <br></br>
+  <hr></hr>
+  <h3> <u>Thursday March 4, 2021</u></h3>
+  <hr></hr>
+  </div>
+
 
 
