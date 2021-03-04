@@ -44,6 +44,8 @@ And their score and results are displayed at the end like so:
 
 ## Outcome:
 - Below are some videos on the different levels of the game and how it is played:
+![](Media/blue.gif)
+![](Media/orange.gif)
 
 ## Potential areas of improvement:
 - I would like to make a list of categories of words to be used by the player. For example, Level one should be just animal names, and level two could be just plants, and another level could be just countries... and many more things. This game has a great potential, and it could be used to teach young kids. 
