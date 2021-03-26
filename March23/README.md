@@ -9,11 +9,11 @@
 
 - Below are the instructions:
 Instructions:
-   . A definition will be presented to you on the monitor.
-   . Enter your option (from 1 -5) of your guess for the described word in the buffer of the serial monitor
-   . The LEDs will flash either blue (for right) or red(for wrong)
-   . Click the red button to stop the red LED from blinking and to see how many trials you have left; the yellow LED will flash the number of trials you have left.
-   . If you get the guess right, the blue LED will flash until you click the blue switch to move on to the next part.
+   - A definition will be presented to you on the monitor.
+   - Enter your option (from 1 -5) of your guess for the described word in the buffer of the serial monitor
+   - The LEDs will flash either blue (for right) or red(for wrong)
+   - Click the red button to stop the red LED from blinking and to see how many trials you have left; the yellow LED will flash the number of trials you have left.
+   -If you get the guess right, the blue LED will flash until you click the blue switch to move on to the next part.
 
    - Do not enter 0 as an entry
 
