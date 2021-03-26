@@ -16,6 +16,8 @@
 
    - Do not enter 0 as an entry
 
+## Schematic:
+![](Media/Schematic.jpg)
 ## The process:
 - I enjoyed the process for the most part. I had to rely on the arduino reference page, class readings, and recordings to ensure that I really understood what I was being required to do. Overall, I was able to create something easy and fun. I am not impressed with the outcome, however, because mainly... I have been having more difficulties with arduino compared to processing, the main reason for that being that I had already used processing before as a computer science student, but arduino was new... so I had to learn everything from scratch.I was pleased to learn that the syntax shares a lot of similarities with processing.
 
@@ -75,7 +77,7 @@ if (user_guess == 4 )
 - I discovered that once I switch an LED on, I could make keep it that way until a switch is clicked on again.
 
 ## Outcome:
-- Below are photos of the outcome of the Board as well as the schematic.
+- Below are photos of the outcome of the Board from different angles.
 ![](Media/4388.jpg)
 ![](Media/73669.jpg)
 ![](Media/87675.jpg)
