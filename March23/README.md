@@ -76,6 +76,7 @@ if (user_guess == 4 )
 
 ## Outcome:
 - Below is a photo of the outcome of the Board as well as the schematic.
+![](Media/4388.jpg)
 
 ## Conclusion:
 - Overall, I think I did an average job based on my condition this week. However, there are many areas of improvement including the fact that the yellow switch has no purpose. I could not think of any place to put it that would make it actually useful, so I would want to work on that even beyond the submission of this assignment. Other than that, I hope that this assignment is acceptable to Prof. Shiloh.
