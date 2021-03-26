@@ -17,7 +17,7 @@
    - Do not enter 0 as an entry
 
 ## Schematic:
-![](Media/Schematic.jpg)
+![](Media/schematic.png)
 ## The process:
 - I enjoyed the process for the most part. I had to rely on the arduino reference page, class readings, and recordings to ensure that I really understood what I was being required to do. Overall, I was able to create something easy and fun. I am not impressed with the outcome, however, because mainly... I have been having more difficulties with arduino compared to processing, the main reason for that being that I had already used processing before as a computer science student, but arduino was new... so I had to learn everything from scratch.I was pleased to learn that the syntax shares a lot of similarities with processing.
 
