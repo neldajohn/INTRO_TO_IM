@@ -70,7 +70,8 @@ for (int i = 0; i < 4; i++)
 - Not that this is something new... but I realized that I hadn't saved the fade example after we looked at it in class, and I was getting anxious thinking about it, and then I remembered that I could easily just look it up from the examples folder. I didn't know exactly where it was... so I just followed my instincts and started with Basics and it was right there. I was also able to explore other examples that I wanted to use for my project, but I settled for fade.
 
 ## Outcome:
- - Below is a link to the video showing how the program works. 
+ - Below is a link to the video showing how the program works and a photo of the board.
+ ![](Media/NeldaJohn-board5.png) 
  
 ## Conclusion:
 I am happy with my outcome, especially because I think it is very useful. I can actually see this becoming useful to people. If this gets turned into a device, it could help so many people whenever they are anxious. With a couple modifications... this could be compacted into a tool to help people overcome anxiety and potentially fight panic attacks. I have used these breathing techniques... and I know that they work. Even more, I think that this project is useful... because it can help children, people with learning disabilities, the elderly... and many other people who need just simple things to overcome anxiety.
