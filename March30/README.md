@@ -1,6 +1,6 @@
 ## ASSIGNMENT FIVE: LED-GUIDED BREATHING
 - This assignment requires students to use at least one analog sensor and one digital sensor to control at least 2 LEDS in some creative fashion.
-- I decided to create a project that is inspired by something that I have been learning recently : Meditation. A huge part of the meditation practice is breathing, so in my program, the user has four different breathing techniques that they can access through the control of either a digital sensor (switch), an analog sensor (light sensor), or both.  
+- I decided to create a project that is inspired by something that I have been learning recently : Meditation. A huge part of the meditation practice is breathing, so in my program, the user has two different breathing techniques that they can access through the control of either a digital sensor (switch), or both thw switch and a light sensor.  
 
 ## Description:
 - Once the program starts, all LEDs are off until a switch is turned on. Once the switch is turned on, the deafult breathing technique is the 4 seconds by 4 seconds technique. So, all three LEDs will fade in a 4 by 4 rhythm to allow the user to follow along. This technique is used to help improve focus. 
