@@ -3,12 +3,18 @@
 - I decided to create a project that is inspired by something that I have been learning recently : Meditation. A huge part of the meditation practice is breathing, so in my program, the user has four different breathing techniques that they can access through the control of either a digital sensor (switch), an analog sensor (light sensor), or both.  
 
 ## Description:
-- Once the program starts, all LEDs are off until a sw. 
-- The best part about this program is that it helps the user focus on colors, which is also a nice technique in calming anxiety. 
+- Once the program starts, all LEDs are off until a switch is turned on. Once the switch is turned on, the deafult breathing technique is the 4 seconds by 4 seconds technique. So, all three LEDs will fade in a 4 by 4 rhythm to allow the user to follow along. This technique is used to help improve focus. 
+- If the user wants to try a different technique, all they have to do is block the light sensor and that will introduce the second part of the program, i.e. the 4 seconds by 7 seconds by 8 seconds breathing technique. This technique is used to help to ground people when they get anxious... and as a naturally anxious person, I have used this technique before, and it works great. It is also the same technique I use when meditating, because it helps me concentrate on the present and not worry about other things e.g future exams.
+- 
+- The best part about this program is that it helps the user focus on colors, which is also a nice technique in calming anxiety i.e. when getting anxious... people are encouraged to focus on their senses... and sight is a good sense to focus on. 
 
 ## Schematic:
 
 ## The process:
+- I had no idea what I was going to do when I started with the program, so initially I just put my switch and sensor, and made sure that they work to control the switches... which turned out fine. But I did not use any of that ground work in my final project... it was just a way to help me set up everything.
+
+- I had to change my outputs, because I had initially used some digital-only outputs... but since I was going to use analog as well, I went back into my program and picked 9,6,3 for my LEDs to enable analog output too.
+
 - I then set up the part that when the sensor detects anything above 400, the user can do the 4 by 4 breathing technique. This was achieved by:
 ```Arduino
 if (sensorValue > 400)
