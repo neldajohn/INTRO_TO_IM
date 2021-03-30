@@ -4,8 +4,7 @@
 
 ## Description:
 - Once the program starts, all LEDs are off until a switch is turned on. Once the switch is turned on, the deafult breathing technique is the 4 seconds by 4 seconds technique. So, all three LEDs will fade in a 4 by 4 rhythm to allow the user to follow along. This technique is used to help improve focus. 
-- If the user wants to try a different technique, all they have to do is block the light sensor and that will introduce the second part of the program, i.e. the 4 seconds by 7 seconds by 8 seconds breathing technique. This technique is used to help to ground people when they get anxious... and as a naturally anxious person, I have used this technique before, and it works great. It is also the same technique I use when meditating, because it helps me concentrate on the present and not worry about other things e.g future exams.
-- 
+- If the user wants to try a different technique, all they have to do is block the light sensor and that will introduce the second part of the program, i.e. the 4 seconds by 7 seconds by 8 seconds breathing technique. This technique is used to help to ground people when they get anxious... and as a naturally anxious person, I have used this technique before, and it works great. It is also the same technique I use when meditating, because it helps me concentrate on the present and not worry about other things e.g future exams. 
 - The best part about this program is that it helps the user focus on colors, which is also a nice technique in calming anxiety i.e. when getting anxious... people are encouraged to focus on their senses... and sight is a good sense to focus on. 
 
 ## Schematic:
