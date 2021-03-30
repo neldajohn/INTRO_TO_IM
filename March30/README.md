@@ -69,7 +69,9 @@ for (int i = 0; i < 4; i++)
 - Not that this is something new... but I realized that I hadn't saved the fade example after we looked at it in class, and I was getting anxious thinking about it, and then I remembered that I could easily just look it up from the examples folder. I didn't know exactly where it was... so I just followed my instincts and started with Basics and it was right there. I was also able to explore other examples that I wanted to use for my project, but I settled for fade.
 
 ## Outcome:
- - Below is a link to the video showing how the program works and a photo of the board.
+ - Below is a link to the video showing how the program works: https://youtu.be/95Yy-ofxQOo
+
+ - This is aphoto of the board that I used to get the program to work.
  ![](Media/NeldaJohn-board5.png) 
  
 ## Conclusion:
