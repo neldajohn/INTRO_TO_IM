@@ -8,6 +8,8 @@
 - The best part about this program is that it helps the user focus on colors, which is also a nice technique in calming anxiety i.e. when getting anxious... people are encouraged to focus on their senses... and sight is a good sense to focus on. 
 
 ## Schematic:
+- This is a photo of the schematic:
+![](Media/schematic5.png)
 
 ## The process:
 - I had no idea what I was going to do when I started with the program, so initially I just put my switch and sensor, and made sure that they work to control the switches... which turned out fine. But I did not use any of that ground work in my final project... it was just a way to help me set up everything.
