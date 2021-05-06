@@ -23,6 +23,9 @@ The inspiration came from my love for reading and mental health and wellness awa
 
 ### Outcome:
 - Below are screenshots of the start screen, a sample question, and a photo of the breadboard.
+![](media/cover.png)
+![](media/quote.png)
+![](media/breadboard.png)
 
 
 
